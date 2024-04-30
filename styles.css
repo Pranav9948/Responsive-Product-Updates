@@ -20,10 +20,10 @@ body {
 
 .gradient-bg {
   /* For browsers that do not support gradients */
-  background-color: #0cb2ff; /* Fallback color */
 
   /* Linear Gradient */
-  background-image: linear-gradient(to bottom, #0cb2ff 0%, #267bff 100%);
+  border: none;
+  background: linear-gradient(90deg, #267cff 1.14%, #0cb2ff 100%);
 }
 
 .discover-button button {
@@ -244,7 +244,6 @@ body {
     font-size: 75px;
     font-weight: 800;
     max-width: 1200px;
-
     margin: 0 auto;
   }
 
@@ -252,6 +251,7 @@ body {
     width: 100%;
     max-width: 1480px;
     height: auto;
+    margin: 100px 0px 50px;
   }
 
   .configurator-hero-section-description p {
@@ -284,6 +284,7 @@ body {
     font-size: 75px;
     font-weight: 800;
     text-align: center;
+    margin: 0px 0px 50px;
   }
 
   .feature-1 img,
@@ -301,6 +302,7 @@ body {
     font-weight: 500;
     line-height: 32px;
     align-items: start;
+    margin: 50px 0px 30px;
   }
 
   .feature-1 p,
@@ -311,14 +313,24 @@ body {
     line-height: 28px;
   }
 
+  .feature-2 h5 {
+    margin-top: 34px;
+  }
+
+  .feature-3 h2 {
+    margin-top: 84px !important;
+  }
+
+  .feature-3 p {
+    margin-bottom: 50px;
+  }
+
   /* feature-discussion-section ends */
 }
 
 /* laptop view styling -1550px devices */
 
 @media screen and (max-width: 1550px) {
-  .whole-class {
-  }
   .container-section {
     padding: 100px 180px;
     background-color: black;
@@ -364,6 +376,7 @@ body {
     width: 100%;
     max-width: 1200px;
     height: auto;
+    margin: 100px 0px 50px;
   }
 
   .configurator-hero-section-description p {
@@ -400,6 +413,7 @@ body {
     font-size: 75px;
     font-weight: 800;
     text-align: center;
+    margin: 0px 0px 50px;
   }
 
   .feature-1 img,
@@ -410,6 +424,10 @@ body {
     height: auto;
   }
 
+  .feature-2 h2 {
+    margin-top: 84px;
+  }
+
   .feature-1 h5,
   .feature-2 h5,
   .feature-3 h5 {
@@ -417,6 +435,7 @@ body {
     font-weight: 500;
     line-height: 32px;
     align-items: start;
+    margin: 50px 0px 30px;
   }
 
   .feature-1 p,
@@ -425,6 +444,18 @@ body {
     font-size: 20px;
     font-weight: 300;
     line-height: 28px;
+  }
+
+  .feature-3 h2 {
+    margin-top: 84px !important;
+  }
+
+  .feature-3 p {
+    margin-bottom: 50px;
+  }
+
+  .feature-2 h5 {
+    margin-top: 34px;
   }
 
   /* feature-discussion-section ends */
@@ -466,6 +497,7 @@ body {
     width: 100%;
     max-width: 1060px;
     height: auto;
+    margin: 100px 0px 50px;
   }
 
   .configurator-hero-section-description p {
@@ -502,6 +534,7 @@ body {
     font-size: 75px;
     font-weight: 800;
     text-align: center;
+    margin: 0px 0px 50px;
   }
 
   .feature-1 img,
@@ -519,6 +552,15 @@ body {
     font-weight: 500;
     line-height: 32px;
     text-align: start;
+    margin: 50px 0px 30px;
+  }
+
+  .feature-2 h5 {
+    margin-top: 34px;
+  }
+
+  .feature-3 h2 {
+    margin-top: 84px !important;
   }
 
   .feature-1 p,
@@ -527,6 +569,14 @@ body {
     font-size: 20px;
     font-weight: 300;
     line-height: 28px;
+  }
+
+  .feature-2 h2 {
+    margin-top: 84px;
+  }
+
+  .feature-3 p {
+    margin-bottom: 50px;
   }
 
   /* feature-discussion-section ends */
@@ -568,6 +618,7 @@ body {
     width: 100%;
     max-width: 900px;
     height: auto;
+    margin: 100px 0px 50px;
   }
 
   .configurator-hero-section-description p {
@@ -608,6 +659,7 @@ body {
     font-size: 65px;
     font-weight: 800;
     text-align: center;
+    margin: 0px 0px 50px;
   }
 
   .feature-1 img,
@@ -618,6 +670,10 @@ body {
     height: auto;
   }
 
+  .feature-2 h2 {
+    margin-top: 84px;
+  }
+
   .feature-1 h5,
   .feature-2 h5,
   .feature-3 h5 {
@@ -625,6 +681,7 @@ body {
     font-weight: 500;
     line-height: 32px;
     text-align: start;
+    margin: 50px 0px 30px;
   }
 
   .feature-1 p,
@@ -633,6 +690,18 @@ body {
     font-size: 20px;
     font-weight: 300;
     line-height: 28px;
+  }
+
+  .feature-2 h5 {
+    margin-top: 34px;
+  }
+
+  .feature-3 h2 {
+    margin-top: 84px !important;
+  }
+
+  .feature-3 p {
+    margin-bottom: 50px;
   }
 
   /* feature-discussion-section ends */
@@ -674,6 +743,7 @@ body {
     width: 100%;
     max-width: 900px;
     height: auto;
+    margin: 100px 0px 50px;
   }
 
   .configurator-hero-section-description p {
@@ -710,6 +780,7 @@ body {
     font-size: 45px;
     font-weight: 800;
     text-align: center;
+    margin: 0px 0px 50px;
   }
 
   .feature-1 img,
@@ -727,6 +798,7 @@ body {
     font-weight: 500;
     line-height: 32px;
     text-align: start;
+    margin: 50px 0px 30px;
   }
 
   .feature-1 p,
@@ -735,6 +807,14 @@ body {
     font-size: 20px;
     font-weight: 300;
     line-height: 28px;
+  }
+
+  .feature-2 h5 {
+    margin-top: 34px;
+  }
+
+  .feature-3 h2 {
+    margin-top: 84px !important;
   }
 
   /* feature-discussion-section ends */
@@ -774,7 +854,7 @@ body {
   .configurator-hero-section img {
     width: 680px;
     height: auto;
-    margin: 50px 0px 0px;
+    margin: 100px 0px 50px;
   }
 
   .configurator-hero-section-description p {
@@ -892,6 +972,7 @@ body {
     width: 100%;
     max-width: 560px;
     height: auto;
+    margin: 100px 0px 50px;
   }
 
   .configurator-hero-section-description p {
@@ -928,6 +1009,10 @@ body {
     font-size: 35px;
     font-weight: 500;
     text-align: start;
+    margin: 0px 0px 50px;
+  }
+  .feature-2 h2 {
+    margin-top: 84px;
   }
 
   .feature-1 img,
@@ -945,6 +1030,7 @@ body {
     font-weight: 500;
     line-height: 22px;
     text-align: start;
+    margin: 50px 0px 30px;
   }
 
   .feature-1 p,
@@ -955,14 +1041,20 @@ body {
     line-height: 22px;
   }
 
+  .feature-2 h5 {
+    margin-top: 34px;
+  }
+
+  .feature-3 h2 {
+    margin-top: 84px !important;
+  }
+
   /* feature-discussion-section ends */
 }
 
 /* mobile view styling */
 
 @media screen and (max-width: 390px) {
-  .whole-class {
-  }
   .container-section {
     padding: 50px 24px;
     background-color: black;
@@ -981,7 +1073,7 @@ body {
   .configurator-hero-section .date {
     font-size: 12px;
     font-weight: 300;
-    margin: 0 0px 25px;
+    margin: 0 0px 15px;
   }
 
   .configurator-hero-section h1 {
@@ -996,6 +1088,7 @@ body {
     width: 100%;
     max-width: 310px;
     height: auto;
+    margin: 40px 0px 25px;
   }
 
   .configurator-hero-section-description p {
@@ -1015,6 +1108,12 @@ body {
     margin: 30px 0px;
   }
 
+  .discover-button button {
+    padding: 10px 32px;
+    border-radius: 50px;
+    margin: 15px 0px;
+  }
+
   .feature-1,
   .feature-2,
   .feature-3 {
@@ -1032,6 +1131,7 @@ body {
     font-size: 24px;
     font-weight: 500;
     text-align: start;
+    margin: 0px 0px 25px;
   }
 
   .feature-1 img,
@@ -1057,6 +1157,18 @@ body {
     font-size: 14px;
     font-weight: 300;
     line-height: 22px;
+  }
+
+  .feature-2 h2 {
+    margin-top: 25px;
+  }
+
+  .feature-2 h5 {
+    margin-top: 25px;
+  }
+
+  .feature-3 h2 {
+    margin-top: 25px !important;
   }
 
   /* feature-discussion-section ends */
