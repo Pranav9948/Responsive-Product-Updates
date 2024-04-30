@@ -1,0 +1,1070 @@
+/* global preset */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: black;
+  font-family: 'Roboto', sans-serif;
+  color: white;
+}
+
+.discover-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.gradient-bg {
+  /* For browsers that do not support gradients */
+  background-color: #0cb2ff; /* Fallback color */
+
+  /* Linear Gradient */
+  background-image: linear-gradient(to bottom, #0cb2ff 0%, #267bff 100%);
+}
+
+.discover-button button {
+  padding: 10px 32px;
+  border-radius: 50px;
+  margin: 30px 0px;
+}
+
+.features-card-view {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 50px;
+}
+
+.features-card-view h2 {
+  margin: 80px;
+}
+
+.card-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.cardz {
+  border: 2px solid blue;
+  background-color: black;
+  padding: 100px 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 25px;
+  border-radius: 20px;
+  width: 300px;
+  height: 450px;
+}
+
+.card-img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px 0px;
+}
+
+.cardz img {
+  height: 70px;
+  max-width: 70px;
+}
+
+.card-body h5 {
+  color: white;
+  font-size: 22px;
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 25px;
+}
+
+.card-body p {
+  color: white;
+  font-size: 20px;
+  font-weight: 300;
+  text-align: center;
+}
+
+/* laptop view styling -1920px devices */
+
+@media screen and (max-width: 1920px) {
+  .container-section {
+    padding: 100px 200px;
+    background-color: black;
+  }
+
+  /* configurator-hero-section starts */
+
+  .configurator-hero-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .configurator-hero-section .date {
+    font-size: 16px;
+    font-weight: 300;
+    margin: 0 auto;
+  }
+
+  .configurator-hero-section h1 {
+    font-size: 75px;
+    font-weight: 800;
+    max-width: 1330px;
+    margin: 0 auto;
+  }
+
+  .configurator-hero-section img {
+    width: 100%;
+    max-width: 1670px;
+    height: auto;
+    margin: 100px 0px 50px;
+  }
+
+  .configurator-hero-section-description p {
+    font-size: 20px;
+    font-weight: 400;
+    max-width: 1330px;
+    margin: 0px auto 0px;
+
+    text-align: start;
+  }
+
+  /* configurator-hero-section ends */
+
+  /* feature-discussion section starts */
+
+  .feature-discussion {
+    margin: 50px 0px;
+  }
+
+  .feature-1,
+  .feature-2,
+  .feature-3 {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    max-width: 1330px;
+
+    margin: 0 auto;
+  }
+
+  .feature-1 h2,
+  .feature-2 h2,
+  .feature-3 h2 {
+    font-size: 75px;
+    font-weight: 800;
+    text-align: center;
+    margin: 0px 0px 50px;
+  }
+
+  .feature-1 img,
+  .feature-2 img,
+  .feature-3 img {
+    max-width: 1330px;
+    width: 100%;
+    height: auto;
+  }
+
+  .feature-2 h2 {
+    margin-top: 84px;
+  }
+
+  .feature-1 h5,
+  .feature-2 h5,
+  .feature-3 h5 {
+    font-size: 26px;
+    font-weight: 500;
+    line-height: 32px;
+    align-items: start;
+    margin: 50px 0px 30px;
+  }
+
+  .feature-2 h5 {
+    margin-top: 34px;
+  }
+
+  .feature-3 h2 {
+    margin-top: 84px !important;
+  }
+
+  .feature-3 p {
+    margin-bottom: 50px;
+  }
+
+  .features-card-view h2 {
+    font-size: 50px;
+    font-weight: 800;
+  }
+
+  .feature-1 p,
+  .feature-2 p,
+  .feature-3 p {
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 28px;
+  }
+
+  /* feature-discussion-section ends */
+}
+
+/* laptop view styling -1780px devices */
+
+@media screen and (max-width: 1780px) {
+  .whole-class {
+  }
+  .container-section {
+    padding: 100px 150px;
+    background-color: black;
+  }
+
+  /* configurator-hero-section starts */
+
+  .configurator-hero-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .configurator-hero-section .date {
+    font-size: 16px;
+    font-weight: 300;
+    margin: 0 auto;
+  }
+
+  .configurator-hero-section h1 {
+    font-size: 75px;
+    font-weight: 800;
+    max-width: 1200px;
+
+    margin: 0 auto;
+  }
+
+  .configurator-hero-section img {
+    width: 100%;
+    max-width: 1480px;
+    height: auto;
+  }
+
+  .configurator-hero-section-description p {
+    font-size: 20px;
+    font-weight: 400;
+    max-width: 1200px;
+    margin: 50px auto;
+
+    text-align: start;
+  }
+
+  /* configurator-hero-section ends */
+
+  /* feature-discussion section starts */
+
+  .feature-discussion {
+    margin: 50px 0px;
+  }
+
+  .feature-1,
+  .feature-2,
+  .feature-3 {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    max-width: 1200px;
+
+    margin: 0 auto;
+  }
+
+  .feature-1 h2,
+  .feature-2 h2,
+  .feature-3 h2 {
+    font-size: 75px;
+    font-weight: 800;
+    text-align: center;
+  }
+
+  .feature-1 img,
+  .feature-2 img,
+  .feature-3 img {
+    max-width: 1200px;
+    width: 100%;
+    height: auto;
+  }
+
+  .feature-1 h5,
+  .feature-2 h5,
+  .feature-3 h5 {
+    font-size: 26px;
+    font-weight: 500;
+    line-height: 32px;
+    align-items: start;
+  }
+
+  .feature-1 p,
+  .feature-2 p,
+  .feature-3 p {
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 28px;
+  }
+
+  /* feature-discussion-section ends */
+}
+
+/* laptop view styling -1550px devices */
+
+@media screen and (max-width: 1550px) {
+  .whole-class {
+  }
+  .container-section {
+    padding: 100px 180px;
+    background-color: black;
+  }
+
+  .features-card-view h2 {
+    font-size: 40px;
+  }
+
+  .card-section {
+    display: grid;
+
+    grid-template-columns: repeat(2, 1fr); /* Two cards per row */
+
+    grid-gap: 40px;
+  }
+
+  /* configurator-hero-section starts */
+
+  .configurator-hero-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .configurator-hero-section .date {
+    font-size: 16px;
+    font-weight: 300;
+    margin: 0 auto;
+  }
+
+  .configurator-hero-section h1 {
+    font-size: 75px;
+    font-weight: 800;
+    max-width: 890px;
+
+    margin: 0 auto;
+  }
+
+  .configurator-hero-section img {
+    width: 100%;
+    max-width: 1200px;
+    height: auto;
+  }
+
+  .configurator-hero-section-description p {
+    font-size: 20px;
+    font-weight: 400;
+    max-width: 890px;
+    margin: 50px auto;
+
+    text-align: start;
+  }
+
+  /* configurator-hero-section ends */
+
+  /* feature-discussion section starts */
+
+  .feature-discussion {
+    margin: 50px 0px;
+  }
+
+  .feature-1,
+  .feature-2,
+  .feature-3 {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    max-width: 890px;
+
+    margin: 0 auto;
+  }
+
+  .feature-1 h2,
+  .feature-2 h2,
+  .feature-3 h2 {
+    font-size: 75px;
+    font-weight: 800;
+    text-align: center;
+  }
+
+  .feature-1 img,
+  .feature-2 img,
+  .feature-3 img {
+    max-width: 890px;
+    width: 100%;
+    height: auto;
+  }
+
+  .feature-1 h5,
+  .feature-2 h5,
+  .feature-3 h5 {
+    font-size: 26px;
+    font-weight: 500;
+    line-height: 32px;
+    align-items: start;
+  }
+
+  .feature-1 p,
+  .feature-2 p,
+  .feature-3 p {
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 28px;
+  }
+
+  /* feature-discussion-section ends */
+}
+
+/* laptop view styling -1300px devices */
+
+@media screen and (max-width: 1300px) {
+  .whole-class {
+  }
+  .container-section {
+    padding: 100px 120px;
+    background-color: black;
+  }
+
+  /* configurator-hero-section starts */
+
+  .configurator-hero-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .configurator-hero-section .date {
+    font-size: 16px;
+    font-weight: 300;
+    margin: 0 auto;
+  }
+
+  .configurator-hero-section h1 {
+    font-size: 75px;
+    font-weight: 800;
+    max-width: 990px;
+
+    margin: 0 auto;
+  }
+
+  .configurator-hero-section img {
+    width: 100%;
+    max-width: 1060px;
+    height: auto;
+  }
+
+  .configurator-hero-section-description p {
+    font-size: 20px;
+    font-weight: 400;
+    max-width: 790px;
+    margin: 50px auto;
+
+    text-align: start;
+  }
+
+  /* configurator-hero-section ends */
+
+  /* feature-discussion section starts */
+
+  .feature-discussion {
+    margin: 50px 0px;
+  }
+
+  .feature-1,
+  .feature-2,
+  .feature-3 {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    max-width: 790px;
+
+    margin: 0 auto;
+  }
+
+  .feature-1 h2,
+  .feature-2 h2,
+  .feature-3 h2 {
+    font-size: 75px;
+    font-weight: 800;
+    text-align: center;
+  }
+
+  .feature-1 img,
+  .feature-2 img,
+  .feature-3 img {
+    max-width: 790px;
+    width: 100%;
+    height: auto;
+  }
+
+  .feature-1 h5,
+  .feature-2 h5,
+  .feature-3 h5 {
+    font-size: 26px;
+    font-weight: 500;
+    line-height: 32px;
+    text-align: start;
+  }
+
+  .feature-1 p,
+  .feature-2 p,
+  .feature-3 p {
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 28px;
+  }
+
+  /* feature-discussion-section ends */
+}
+
+/* laptop view styling -1090px devices */
+
+@media screen and (max-width: 1090px) {
+  .whole-class {
+  }
+  .container-section {
+    padding: 100px 100px;
+    background-color: black;
+  }
+
+  /* configurator-hero-section starts */
+
+  .configurator-hero-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .configurator-hero-section .date {
+    font-size: 16px;
+    font-weight: 300;
+    margin: 0 auto;
+  }
+
+  .configurator-hero-section h1 {
+    font-size: 65px;
+    font-weight: 800;
+    max-width: 890px;
+
+    margin: 0 auto;
+  }
+
+  .configurator-hero-section img {
+    width: 100%;
+    max-width: 900px;
+    height: auto;
+  }
+
+  .configurator-hero-section-description p {
+    font-size: 20px;
+    font-weight: 400;
+    max-width: 690px;
+    margin: 50px auto;
+
+    text-align: start;
+  }
+
+  /* configurator-hero-section ends */
+
+  /* feature-discussion section starts */
+
+  .feature-discussion {
+    margin: 50px 0px;
+  }
+
+  .features-card-view {
+    display: none;
+  }
+
+  .feature-1,
+  .feature-2,
+  .feature-3 {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    max-width: 690px;
+
+    margin: 0 auto;
+  }
+
+  .feature-1 h2,
+  .feature-2 h2,
+  .feature-3 h2 {
+    font-size: 65px;
+    font-weight: 800;
+    text-align: center;
+  }
+
+  .feature-1 img,
+  .feature-2 img,
+  .feature-3 img {
+    max-width: 690px;
+    width: 100%;
+    height: auto;
+  }
+
+  .feature-1 h5,
+  .feature-2 h5,
+  .feature-3 h5 {
+    font-size: 26px;
+    font-weight: 500;
+    line-height: 32px;
+    text-align: start;
+  }
+
+  .feature-1 p,
+  .feature-2 p,
+  .feature-3 p {
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 28px;
+  }
+
+  /* feature-discussion-section ends */
+}
+
+/* laptop view styling -900px devices */
+
+@media screen and (max-width: 900px) {
+  .whole-class {
+  }
+  .container-section {
+    padding: 100px 100px;
+    background-color: black;
+  }
+
+  /* configurator-hero-section starts */
+
+  .configurator-hero-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .configurator-hero-section .date {
+    font-size: 16px;
+    font-weight: 300;
+    margin: 0 auto;
+  }
+
+  .configurator-hero-section h1 {
+    font-size: 55px;
+    font-weight: 800;
+    max-width: 750px;
+
+    margin: 0 auto;
+  }
+
+  .configurator-hero-section img {
+    width: 100%;
+    max-width: 900px;
+    height: auto;
+  }
+
+  .configurator-hero-section-description p {
+    font-size: 20px;
+    font-weight: 400;
+    max-width: 500px;
+    margin: 50px auto;
+
+    text-align: start;
+  }
+
+  /* configurator-hero-section ends */
+
+  /* feature-discussion section starts */
+
+  .feature-discussion {
+    margin: 50px 0px;
+  }
+
+  .feature-1,
+  .feature-2,
+  .feature-3 {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    max-width: 500px;
+
+    margin: 0 auto;
+  }
+
+  .feature-1 h2,
+  .feature-2 h2,
+  .feature-3 h2 {
+    font-size: 45px;
+    font-weight: 800;
+    text-align: center;
+  }
+
+  .feature-1 img,
+  .feature-2 img,
+  .feature-3 img {
+    max-width: 690px;
+    width: 100%;
+    height: auto;
+  }
+
+  .feature-1 h5,
+  .feature-2 h5,
+  .feature-3 h5 {
+    font-size: 26px;
+    font-weight: 500;
+    line-height: 32px;
+    text-align: start;
+  }
+
+  .feature-1 p,
+  .feature-2 p,
+  .feature-3 p {
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 28px;
+  }
+
+  /* feature-discussion-section ends */
+}
+
+/* tablet view styling */
+
+@media screen and (max-width: 750px) {
+  .container-section {
+    padding: 50px 75px;
+    background-color: black;
+  }
+
+  /* configurator-hero-section starts */
+
+  .configurator-hero-section {
+    gap: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .configurator-hero-section .date {
+    font-size: 14px;
+    font-weight: 300;
+    margin: 0 auto;
+  }
+
+  .configurator-hero-section h1 {
+    font-size: 45px;
+    font-weight: 800;
+    max-width: 680px;
+
+    margin: 0 auto;
+  }
+
+  .configurator-hero-section img {
+    width: 100%;
+    max-width: 680px;
+    height: auto;
+  }
+
+  .configurator-hero-section-description p {
+    font-size: 16px;
+    font-weight: 400;
+    max-width: 520px;
+    margin: 50px auto;
+
+    text-align: start;
+  }
+
+  /* configurator-hero-section ends */
+
+  /* feature-discussion section starts */
+
+  .feature-discussion {
+    margin: 40px 0px;
+  }
+
+  .feature-1,
+  .feature-2,
+  .feature-3 {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    max-width: 520px;
+    gap: 30px;
+    margin: 0 auto;
+    align-items: start;
+  }
+
+  .feature-1 h2,
+  .feature-2 h2,
+  .feature-3 h2 {
+    font-size: 45px;
+    font-weight: 500;
+    text-align: start;
+  }
+
+  .feature-1 img,
+  .feature-2 img,
+  .feature-3 img {
+    max-width: 520px;
+    width: 100%;
+    height: auto;
+  }
+
+  .feature-1 h5,
+  .feature-2 h5,
+  .feature-3 h5 {
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 22px;
+    text-align: start;
+  }
+
+  .feature-1 p,
+  .feature-2 p,
+  .feature-3 p {
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 22px;
+  }
+
+  /* feature-discussion-section ends */
+}
+
+/* tablet view styling-640px */
+
+@media screen and (max-width: 640px) {
+  .whole-class {
+  }
+  .container-section {
+    padding: 50px 50px;
+    background-color: black;
+  }
+
+  /* configurator-hero-section starts */
+
+  .configurator-hero-section {
+    gap: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .configurator-hero-section .date {
+    font-size: 14px;
+    font-weight: 300;
+    margin: 0 auto;
+  }
+
+  .configurator-hero-section h1 {
+    font-size: 45px;
+    font-weight: 800;
+    max-width: 680px;
+
+    margin: 0 auto;
+  }
+
+  .configurator-hero-section img {
+    width: 100%;
+    max-width: 560px;
+    height: auto;
+  }
+
+  .configurator-hero-section-description p {
+    font-size: 16px;
+    font-weight: 400;
+    max-width: 400px;
+    margin: 50px auto;
+
+    text-align: start;
+  }
+
+  /* configurator-hero-section ends */
+
+  /* feature-discussion section starts */
+
+  .feature-discussion {
+    margin: 40px 0px;
+  }
+
+  .feature-1,
+  .feature-2,
+  .feature-3 {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    max-width: 400px;
+    gap: 30px;
+    margin: 0 auto;
+    align-items: start;
+  }
+
+  .feature-1 h2,
+  .feature-2 h2,
+  .feature-3 h2 {
+    font-size: 35px;
+    font-weight: 500;
+    text-align: start;
+  }
+
+  .feature-1 img,
+  .feature-2 img,
+  .feature-3 img {
+    max-width: 400px;
+    width: 100%;
+    height: auto;
+  }
+
+  .feature-1 h5,
+  .feature-2 h5,
+  .feature-3 h5 {
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 22px;
+    text-align: start;
+  }
+
+  .feature-1 p,
+  .feature-2 p,
+  .feature-3 p {
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 22px;
+  }
+
+  /* feature-discussion-section ends */
+}
+
+/* mobile view styling */
+
+@media screen and (max-width: 390px) {
+  .whole-class {
+  }
+  .container-section {
+    padding: 50px 24px;
+    background-color: black;
+  }
+
+  /* configurator-hero-section starts */
+
+  .configurator-hero-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    gap: 30px;
+  }
+
+  .configurator-hero-section .date {
+    font-size: 12px;
+    font-weight: 300;
+    margin: 0 auto;
+  }
+
+  .configurator-hero-section h1 {
+    font-size: 26px;
+    font-weight: 800;
+    max-width: 310px;
+
+    margin: 0 auto;
+  }
+
+  .configurator-hero-section img {
+    width: 100%;
+    max-width: 310px;
+    height: auto;
+  }
+
+  .configurator-hero-section-description p {
+    font-size: 12px;
+    font-weight: 400;
+    max-width: 270px;
+    margin: 30px auto;
+
+    text-align: start;
+  }
+
+  /* configurator-hero-section ends */
+
+  /* feature-discussion section starts */
+
+  .feature-discussion {
+    margin: 30px 0px;
+  }
+
+  .feature-1,
+  .feature-2,
+  .feature-3 {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    max-width: 270px;
+    gap: 30px;
+    margin: 0 auto;
+    align-items: start;
+  }
+
+  .feature-1 h2,
+  .feature-2 h2,
+  .feature-3 h2 {
+    font-size: 24px;
+    font-weight: 500;
+    text-align: start;
+  }
+
+  .feature-1 img,
+  .feature-2 img,
+  .feature-3 img {
+    max-width: 270px;
+    width: 100%;
+    height: auto;
+  }
+
+  .feature-1 h5,
+  .feature-2 h5,
+  .feature-3 h5 {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 22px;
+    text-align: start;
+  }
+
+  .feature-1 p,
+  .feature-2 p,
+  .feature-3 p {
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 22px;
+  }
+
+  /* feature-discussion-section ends */
+}
